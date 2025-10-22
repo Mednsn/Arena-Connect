@@ -22,6 +22,8 @@ header{
 }
 
 nav{
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +78,7 @@ nav .button a:hover{
     font-weight: bold;
     font-family:fantasy;  
       color: #fff;
-    padding-top: 8rem;
+    padding-top: 15rem;
     text-shadow: 0px 10px 10px #0BA4A4;
 }
 
@@ -113,9 +115,9 @@ nav .button a:hover{
 
 
 
-/*conction*/
+/*conction----------------inscription--------------*/
 
-.conxion{
+.conxion,.inscription{
     width: 100%;
     height: 100vh;
     background: var(--background);
@@ -128,7 +130,7 @@ nav .button a:hover{
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
-    padding: 2rem 0;
+    padding: 4rem 0 1rem 0;
     transition: 0.3s ease;
 }
 
@@ -136,7 +138,7 @@ nav .button a:hover{
     color: #0BA4A4;
 }
 
-.section-conction{
+.section-conction,.section-inscription{
     margin: auto;
     padding: 1rem 2rem;
 }
@@ -151,11 +153,14 @@ nav .button a:hover{
 }
 
 .input .section_input input{
-    padding: 10px;
+    padding: 1rem;
     width: 350px;
+    border: 1px solid #0BA4A4;
+    border-radius: 10px;
 }
 
 .input .section_input .link-passowrd{
+    text-align: right;
     padding: 0.5rem 0;
 }
 
@@ -170,14 +175,14 @@ nav .button a:hover{
     color:#025a5a;
 }
 
-.section-conction .section-button {
+.section-conction .section-button,.section-inscription .section-button{
     display: flex;
     flex-direction: column;
-   
+    gap: 10px;
 }
 
-.section-conction .section-button a{
-    width: 300px;
+.section-conction .section-button a,.section-inscription .section-button a{
+    width: 350px;
     text-align: center;
     
 }
@@ -193,4 +198,8 @@ nav .button a:hover{
     flex-direction: column;
     justify-content: flex-end;
 }
+
+/* */
+
+
 
