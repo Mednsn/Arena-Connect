@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+:root{
+    --background:linear-gradient(to right,#0D022D,#034B3F);
+
+}
+
+/*Accueil*/
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/imageAccuiel.jpg);
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background: var(--background);
+    padding: 10px 50px;
+}
+
+
+nav .logo img{
+    width: 20%;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: #0BA4A4;
+}
+
+nav .button a{
+    background-color:#0BA4A4;
+    padding: 8px 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius:10px ;
+    transition: 0.3s ease;
+}
+
+nav .button a:hover{
+    background-color: #025a5a;
+}
+
+.hed{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.hed .title h1{
+    font-size: 6rem;
+    font-weight: bold;
+    font-family:fantasy;  
+      color: #fff;
+    padding-top: 8rem;
+    text-shadow: 0px 10px 10px #0BA4A4;
+}
+
+.section-button{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.section-button a{
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #0BA4A4;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    transition: ease;
+}
+
+.section-button .color{
+    background-color: #fff;
+    color: #0BA4A4;
+}
+
+.section-button a:hover{
+     background-color: #025a5a;
+}
+
+.section-button .color:hover{
+    background-color: #b3b1b1;
+}
+
+
+
+/*conction*/
+
+.conxion{
+    width: 100%;
+    height: 100vh;
+    background: var(--background);
+}
+
+.section_title,{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2rem 0;
+    transition: 0.3s ease;
+}
+
+.section_title:hover{
+    color: #0BA4A4;
+}
+
+.input{
+    width: 50%;
+    background: #fff;
+    margin: auto;
+}
+
+.input .section_input{
+   
+}
+
+.input .section_input p{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+}
+
+
