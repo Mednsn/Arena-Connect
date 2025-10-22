@@ -31,7 +31,7 @@ nav{
 
 
 nav .logo img{
-    width: 30%;
+    width: 20%;
 }
 
 nav ul{
@@ -121,7 +121,7 @@ nav .button a:hover{
     background: var(--background);
 }
 
-.section_title{
+.section_title,{
     color: #fff;
     font-size: 1.5rem;
     font-weight: 600;
