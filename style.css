@@ -96,7 +96,7 @@ nav .button a:hover{
     background: #0BA4A4;
     padding: 10px 20px;
     margin-top: 1rem;
-    border-radius: 10px;
+  
     transition: ease;
 }
 
@@ -220,10 +220,12 @@ footer{
 .footer-title img{
     width: 100px;
 }
+
 .footer-title p{
     width: 60%;
     color: #4c4c4c;
     line-height: 20px;
+   
 }
 
 .footer-title .icont i{
