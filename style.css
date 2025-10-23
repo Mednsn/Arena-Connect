@@ -152,52 +152,66 @@ nav .button a:hover{
     padding: 0.5rem 0;
 }
 
-.input .section_input input{
-    padding: 1rem;
-    width: 350px;
-    border: 1px solid #0BA4A4;
-    border-radius: 10px;
+/*////:::::::::profile:::::::::*/
+.background-image{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 2px solid rgb(0, 255, 251);
+    
+    height: 100vh;
+    background-image: url(images/backgroundm.jpeg);
+    background-size: cover;
 }
-
-.input .section_input .link-passowrd{
-    text-align: right;
-    padding: 0.5rem 0;
+.profile-image{
+    
+    border: 2px solid red;
 }
+.profile-image img{
+    width: 60%;
+    height: 50%;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 255, 251);
 
-.input .section_input .link-passowrd a{
-    color: #0BA4A4;
-    font-size: 16px;
-    font-weight: 800;
-    transition: 0.3 ease;
 }
-
-.input .section_input .link-passowrd a:hover{
-    color:#025a5a;
+.info-profile{
+border: 2px solid rgb(0, 255, 251);
+background: #0BA4A4;
+display: grid;
+grid-template-rows: 150px auto;
 }
-
-.section-conction .section-button,.section-inscription .section-button{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.username{
+    background: #034B3F;
+    border: 2px solid red;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    color: #fff;
 }
+.infos-joueur{
+    background: #716b81;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns:  30% 70%;
+    
 
-.section-conction .section-button a,.section-inscription .section-button a{
-    width: 350px;
-    text-align: center;
+}
+.div-label{
+    display: grid;
+    align-items:center;
     
 }
-
-.section-image{
-    width: 40%;
+.div-valeur{
+    display: grid;
+    align-items: center;
 }
-
-.section-image img{
+.div-100{
     width: 300px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    height: 4vh;
+    border-radius: 8px;
+    background: red;
 }
+<<<<<<< HEAD
 
 /* footer*/
 
@@ -252,5 +266,20 @@ footer{
 }
 
 
+=======
+.div-60{
+     width: 170px;
+    height: 4vh;
+    border-radius: 8px;
+    background: green;
+}
+.div-70{
+     width: 220px;
+    height: 4vh;
+    border-radius: 8px;
+    background: green;
+}
+/*******::::::::::::::::::::::*****/
+>>>>>>> a849879e9051072750da9a6d8929913268a2c5f9
 
 
