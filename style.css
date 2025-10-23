@@ -96,7 +96,7 @@ nav .button a:hover{
     background: #0BA4A4;
     padding: 10px 20px;
     margin-top: 1rem;
-    border-radius: 10px;
+  
     transition: ease;
 }
 
@@ -211,6 +211,62 @@ grid-template-rows: 150px auto;
     border-radius: 8px;
     background: red;
 }
+<<<<<<< HEAD
+
+/* footer*/
+
+footer{
+    width: 100%;
+
+}
+
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D022D;
+    padding: 1rem 2rem;
+}
+
+.footer-title{
+    width: 30%;
+}
+.footer-title img{
+    width: 100px;
+}
+
+.footer-title p{
+    width: 60%;
+    color: #4c4c4c;
+    line-height: 20px;
+   
+}
+
+.footer-title .icont i{
+    width: 10%;
+    background-color: #bffefe;
+    color: #0BA4A4;
+    border: 1px solid #034B3F;
+    border-radius:20px;
+    padding: 8px 0;
+    margin: 10px 5px;
+
+}
+
+.footer-link h3{
+    color: #fff;
+}
+.footer-link ul li a{
+    color: #4c4c4c;
+    line-height: 30px;
+}
+
+.footer-link ul li a i{
+    color: #0BA4A4;
+}
+
+
+=======
 .div-60{
      width: 170px;
     height: 4vh;
@@ -224,5 +280,6 @@ grid-template-rows: 150px auto;
     background: green;
 }
 /*******::::::::::::::::::::::*****/
+>>>>>>> a849879e9051072750da9a6d8929913268a2c5f9
 
 
