@@ -121,7 +121,7 @@ nav .button a:hover{
     background: var(--background);
 }
 
-.section_title,{
+.section_title{
     color: #fff;
     font-size: 1.5rem;
     font-weight: 600;
@@ -149,5 +149,78 @@ nav .button a:hover{
     font-weight: 600;
     text-align: left;
 }
+
+/*////:::::::::profile:::::::::*/
+.background-image{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 2px solid rgb(0, 255, 251);
+    
+    height: 100vh;
+    background-image: url(images/backgroundm.jpeg);
+    background-size: cover;
+}
+.profile-image{
+    
+    border: 2px solid red;
+}
+.profile-image img{
+    width: 60%;
+    height: 50%;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 255, 251);
+
+}
+.info-profile{
+border: 2px solid rgb(0, 255, 251);
+background: #0BA4A4;
+display: grid;
+grid-template-rows: 150px auto;
+}
+.username{
+    background: #034B3F;
+    border: 2px solid red;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    color: #fff;
+}
+.infos-joueur{
+    background: #716b81;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns:  30% 70%;
+    
+
+}
+.div-label{
+    display: grid;
+    align-items:center;
+    
+}
+.div-valeur{
+    display: grid;
+    align-items: center;
+}
+.div-100{
+    width: 300px;
+    height: 4vh;
+    border-radius: 8px;
+    background: red;
+}
+.div-60{
+     width: 170px;
+    height: 4vh;
+    border-radius: 8px;
+    background: green;
+}
+.div-70{
+     width: 220px;
+    height: 4vh;
+    border-radius: 8px;
+    background: green;
+}
+/*******::::::::::::::::::::::*****/
 
 
