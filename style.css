@@ -211,7 +211,6 @@ grid-template-rows: 150px auto;
     border-radius: 8px;
     background: red;
 }
-<<<<<<< HEAD
 
 /* footer*/
 
@@ -266,20 +265,5 @@ footer{
 }
 
 
-=======
-.div-60{
-     width: 170px;
-    height: 4vh;
-    border-radius: 8px;
-    background: green;
-}
-.div-70{
-     width: 220px;
-    height: 4vh;
-    border-radius: 8px;
-    background: green;
-}
-/*******::::::::::::::::::::::*****/
->>>>>>> a849879e9051072750da9a6d8929913268a2c5f9
 
 
